@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Nileet's Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="components/images/logo1.png" />
+    <script
+      src="https://kit.fontawesome.com/8eee7456b5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="header navbar" id="header navbar">
+      <div class="navbar">
+        <nav>
+          <a href="#header navbar"><img src="components/images/logo1.png" alt="image" class="logo" /></a>
+            <ul id="sidemenu">
+              <li><a href="#header navbar">HOME</a></li>
+              <li><a href="#about">ABOUT</a></li>
+              <li><a href="#services">CERTIFICATES</a></li>
+              <li><a href="#project">PROJECTS</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+              <li><a href="components/images/my-cv.pdf">RESUME</a></li>
+              <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="container">
+          
+          <div class="header-text">
+            <p>COMPUTER SCIENCE STUDENT</p>
+            <h1 class="h1_pre">
+              Hi, I'm <span>Nileet Savale</span>.<br />Pursuing Engineering
+              <br />In Computer Science,<br />At SPPU, Pune
+            </h1>
+            <h1 class="h1_hide">Hi, I'm <span>Nileet Savale</span>.</h1>
+
+          <div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+          </div >
+        </div>
+      </div>
+  </div>
+</div>
+    <!-- -----------------------------ABOUT ME--------------------------------- -->
+    <div class="about" id="about">
+      <div class="container" >
+        <div class="row">
+          <div class="about-col-1">
+            <img src="components/images/user.png" alt="User" />
+          </div>
+          <div class="about-col-2" >
+            <h1 class="subtitle">ABOUT ME</h1>
+            <p class="try">
+              Hi, I'm <span>Nileet Savale</span>.Pursuing Engineering In Computer Science at SPPU, Pune
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span><i class="fa-solid fa-laptop"></i> UI/UX</span
+                  ><br />Designing Web Interface
+                </li>
+                <li>
+                  <span><i class="fa-solid fa-forward"></i> Video Editor</span
+                  ><br />Editing Videos Professionally
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span><i class="fa-solid fa-calendar-week"></i> 2021</span
+                  ><br />Google Developer Student Club Committee Member (Media
+                  Lead)
+                </li>
+                <li>
+                  <span><i class="fa-solid fa-calendar-week"></i> 2022</span
+                  ><br />Departmental Club Media Lead (CESA)
+                </li>
+                <li>
+                  <span><i class="fa-solid fa-calendar-week"></i> 2022</span
+                  ><br />Internship at Information Technology At Atul Ltd.
+                </li>
+                <li>
+                  <span><i class="fa-solid fa-calendar-week"></i> 2022</span
+                  ><br />Internship at Chamela Helpdia Charitable Trust
+                </li>
+                <li>
+                  <span><i class="fa-solid fa-calendar-week"></i> 2022</span
+                  ><br />Internship as Campus Leader at TechLearn.live
+                </li>
+                <li>
+                  <span><i class="fa-solid fa-calendar-week"></i> 2020</span
+                  ><br />Class Representative
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span><i class="fa-solid fa-calendar-week"></i> 2018</span
+                  ><br />Completed 10<sup>th</sup>
+                </li>
+                <li>
+                  <span><i class="fa-solid fa-calendar-week"></i> 2020</span
+                  ><br />Completed 12<sup>th</sup>
+                </li>
+                <li>
+                  <span><i class="fa-solid fa-calendar-week"></i> 2021</span
+                  ><br />Completed 1<sup>st</sup> Year
+                </li>
+                <li>
+                  <span><i class="fa-solid fa-calendar-week"></i> 2022</span
+                  ><br />Completed 2<sup>st</sup> Year
+                </li>
+                <li>
+                  <span><i class="fa-solid fa-calendar-week" ></i> 2023</span
+                  ><br />Currently in 3<sup>rd</sup> Year
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div >
+
+    <!-- -------------------------------CERTIFICATES------------------------------------ -->
+<div id="services"></div>
+    <div class="services">
+      <div class="container">
+        <h1 class="subtitle" >MY CERTIFICATES</h1>
+        <div class="services-list">
+          <a href="components/certificates/NileetSavale.png" target="_blank" >
+            <div class="cont">
+              <i class="fa-solid fa-award"></i>
+              <h2>GDSC Media Lead</h2>
+            </div>
+          </a>
+          <a href="components/certificates/letterOfAppointment_Nileet Savale.pdf" target="_blank">
+            <div class="cont">
+              <i class="fa-solid fa-award"></i>
+              <h2>CESA Media Lead</h2>
+            </div>
+          </a>
+          <a href="components/certificates/Certi_51.pdf" target="_blank">
+            <div class="cont">
+              <i class="fa-solid fa-award"></i>
+              <h2>Internship At Atul Ltd.</h2>
+            </div>
+          </a>
+          <a href="components/certificates/Nileet%20Sumesh%20Savale@4x.png.pdf" target="_blank">
+            <div class="cont">
+              <i class="fa-solid fa-award"></i>
+              <h2>Internship at Chamela Helpdia Charitable Trust</h2>
+            </div>
+          </a>
+          <a href="components/certificates/Nileet Savale CL.pdf" target="_blank">
+            <div class="cont">
+              <i class="fa-solid fa-award"></i>
+              <h2>Internship at TechLearn.live</h2>
+            </div>
+          </a>
+          <a href="components/certificates/cert-CT-A472KACS (1).pdf" class="details hidden toggle" id="hidden" target="_blank">
+            <div class="cont">
+              <i class="fa-solid fa-award"></i>
+              <h2>Course In C++</h2>
+            </div>
+          </a>
+          <a href="components/certificates/1634886445851-Nileet savale-cert.pdf" class="details hidden toggle" id="hidden" target="_blank">
+            <div class="cont">
+              <i class="fa-solid fa-award"></i>
+              <h2>Participation Certificate AWS</h2>
+            </div>
+          </a>
+          <a href="components/certificates/Certificate for Nileet savale for _Feedback by Student on Five..._.pdf" class="details hidden toggle" id="hidden" target="_blank">
+            <div class="cont">
+              <i class="fa-solid fa-award"></i>
+              <h2>Certificate Of Completion For Object Oriented Paradigm</h2>
+            </div>
+          </a>
+          <a href="components/certificates/IMG_2515.jpg" class="details hidden toggle" id="hidden" target="_blank">
+            <div class="cont">
+              <i class="fa-solid fa-award"></i>
+              <h2>
+                Certificate Of Completion For Cloud Engineering Track & DS & ML
+                Certified By <span>GOOGLE</span>
+              </h2>
+            </div>
+          </a>
+          <a href="components/certificates/IMG_2672.jpg" class="details hidden toggle" id="hidden" target="_blank">
+            <div class="cont">
+              <i class="fa-solid fa-award"></i>
+              <h2>
+                Certificate Of Completion For Completing 32 Hours Course In OOP
+                Using C++
+              </h2>
+            </div>
+          </a>
+          <a href="components/certificates/IMG_2727.jpg" class="details hidden toggle" id="hidden" target="_blank">
+            <div class="cont">
+              <i class="fa-solid fa-award"></i>
+              <h2>
+                Certificate Of Completion For Cybersecurity Awareness Training
+              </h2>
+            </div>
+          </a>
+          <a href="components/certificates/IMG_2826.jpg" class="details hidden toggle" id="hidden" target="_blank">
+            <div class="cont">
+              <i class="fa-solid fa-award"></i>
+              <h2>
+                Certificate Of Attendance On How Tesla Self Driving Car Works
+              </h2>
+            </div>
+          </a>
+          <a href="components/certificates/IMG_2826.jpg" class="details hidden toggle" id="hidden" target="_blank">
+            <div class="cont">
+              <i class="fa-solid fa-award"></i>
+              <h2>
+                Certificate Of Attendance on How To Build A Python Project-
+                Sudoku Solver
+              </h2>
+            </div>
+          </a>
+          <a href="components/certificates/IMG_5075.jpg" class="details hidden toggle" id="hidden" target="_blank">
+            <div class="cont">
+              <i class="fa-solid fa-award"></i>
+              <h2>
+                Certificate Of Attendance on Implementing Social Media Login
+                Using Facebook API
+              </h2>
+            </div>
+          </a>
+          <a href="components/certificates/IMG_4781.jpg" class="details hidden toggle" id="hidden" target="_blank">
+            <div class="cont">
+              <i class="fa-solid fa-award"></i>
+              <h2>
+                Certificate Of Participation for Fundamentals Of Linux And Data
+                Analytics
+              </h2>
+            </div>
+          </a>
+        </div>
+        <div class="contain">
+          <a id="button" style="--clr: #3457d5">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            See More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- -----------------------------------------PROJECTS------------------------------------------ -->
+    <div class="projects" id="project">
+      <div class="container">
+        <h1 class="subtitle">Projects</h1>
+        <div class="work-list">
+          <div class="work" >
+            <img src="components/images/work-1.png" alt="project" />
+            <div class="layer">
+              <h3>Rotating Cube</h3>
+              <p>
+                Using Only HTML and CSS I have Coded a simple Cube to have a
+                rotating effect and have neon style shadow
+              </p>
+              <a href="https://github.com/NileetSavale/Websites.git"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="components/images/work-2.png" alt="project" />
+            <div class="layer">
+              <h3>Button Animation</h3>
+              <p>
+                Using Only HTML and CSS I have Coded a Button to have an Amazing
+                effect on hover having a neon style effect
+              </p>
+              <a href="https://github.com/NileetSavale/buttons.git"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="components/images/work-3.png" alt="project" />
+            <div class="layer">
+              <h3>Portfolio Website Using Next JS</h3>
+              <p>Work Under Progress</p>
+              <a href="error.html"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contain">
+        <a id="button" style="--clr: #3457d5" href="https://github.com/NileetSavale">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          See More</a>
+      </div>
+    </div>
+    <!-- -------------------------------------------------contact---------------------------------------- -->
+    <div class="contact" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="subtitle">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i>savalenileet@gmail.com</p>
+            <div class="social-icons">
+              <a href="https://github.com/NileetSavale"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.facebook.com/nileetsavale?mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://twitter.com/SavaleNileet"><i class="fa-brands fa-twitter"></i></i></a>
+              <a href="https://instagram.com/nileetsavale?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/nileet-savale-6384561b2"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="components/images/my-cv.pdf" target="_blank" class="btn btn3">Resume</a>
+          </div>
+          <div class="contact-right">
+            <form onsubmit="sendEmail(); reset(); return false;">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="message"
+                rows="10"
+                placeholder="Your Message"
+                required
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span class="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © Nileet Savale</p>
+      </div>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="script.js"></script>
+    <script>
+      function sendEmail(){
+        email.send({
+          secureToken:"53f37502-0a0e-4bd6-962c-a13e274be041", 
+          To : 'nileetsavale@gmail.com',
+          From : document.getElementByClassName("email").value,
+          Subject :"Message By" + document.getElementsByid("name").value,
+          Body : "Name" + document.getElementsByid("name").value
+                  +"Email" + document.getElementsByid("email").value
+                  +"Message" + document.getElementsByid("message").value
+          }).then(
+message => alert(message)
+);
+}
+    </script>
+  
+  </body>
+</html>
